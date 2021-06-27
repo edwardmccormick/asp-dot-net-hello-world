@@ -13,12 +13,19 @@
         "packagesPath": "C:\\Users\\Ted\\.nuget\\packages\\",
         "outputPath": "E:\\Idea Projects\\myWebApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ted\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Ted\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
